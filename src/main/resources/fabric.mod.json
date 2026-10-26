@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mmob",
+  "version": "${version}",
+  "name": "MMob",
+  "description": "Comando /mmob spawn para spawnar mobs em fila e fazer mobs de tipos diferentes lutarem entre si.",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mmob.MMobMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
